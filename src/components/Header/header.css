@@ -1,6 +1,6 @@
 header{
 
-    height: 100vh;
+    height: 120vh;
     padding:7rem;
     overflow: hidden;
 }
@@ -46,7 +46,7 @@ header{
 {
     background: linear-gradient(var(--color-primary),transparent);
     width: 23rem;
-    height: 30rem;
+    height: 100%;
     position: absolute;
     left: calc(50% - 11rem) ;
     margin-top:4rem;
@@ -75,10 +75,10 @@ header{
     .Name h1
     {   display: none;
     }
-    .Name:before{
+    /* .Name:before{
         content:"Puneet";
 
-    }
+    } */
 
   .header_socials,  .scroll_down
     {

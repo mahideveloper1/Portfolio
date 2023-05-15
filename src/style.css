@@ -107,7 +107,7 @@ img{
     object-fit: cover;
 }
 
-@media  screen and (max-width :1024) {
+@media  screen and (max-width :1024px) {
     .container{
         width: var(--container-width-md);
     }
