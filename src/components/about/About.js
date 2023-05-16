@@ -36,7 +36,7 @@ const About = () => {
               <small>completed 4 Projects</small> 
             </article>
           </div>
-          <p>I am a undergraduate student who has a good grip on Fronted technologies(like HTML, CSS, Reactjs) and Backened technologies(like nodejs, expressjs, MONGODB). In am a constant learner and always keep learning about various tech fields.</p>
+          <p>I am a undergraduate student who has a good grip on Frontend technologies(like HTML, CSS, Reactjs) and Backened technologies(like nodejs, expressjs, MONGODB). In am a constant learner and always keep learning about various tech fields.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
      </div>
