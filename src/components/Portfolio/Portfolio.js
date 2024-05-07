@@ -5,7 +5,7 @@ import IMG2 from '../../assest/portfolio2.jpg'
 import IMG3 from '../../assest/portfolio3.jpg'
 import IMG4 from '../../assest/portfolio4.jpg'
 import IMG5 from '../../assest/portfolio5.png'
-// import IMG6 from '../../assest/portfolio6.jpg'
+import IMG6 from '../../assest/portfolio6.jpg'
 
 const data =[
   {
@@ -19,8 +19,8 @@ const data =[
 id:2,
 image:IMG2,
 title:'Web-Chatting App',
-github:'https://github.com/MaheshVashisth/Web-Chatting-app',
-demo:'https://github.com/MaheshVashisth/Web-Chatting-app'
+github:'https://github.com/MaheshVashisth/mahi-chatting-app',
+demo:'https://mahi-chatting-app.netlify.app/'
 },
 {
   id:3,
@@ -34,7 +34,7 @@ demo:'https://github.com/MaheshVashisth/Web-Chatting-app'
   image:IMG4,
   title:'Food Delivery site',
   github:'https://github.com/MaheshVashisth/Food-Delivery-website',
-  demo:'https://github.com/MaheshVashisth/Food-Delivery-website'
+  demo:'https://storied-conkies-75931e.netlify.app/'
 },
 {
   id:5,
@@ -43,13 +43,13 @@ demo:'https://github.com/MaheshVashisth/Web-Chatting-app'
   github:'https://github.com/MaheshVashisth/Fitness-page',
   demo:'https://github.com/MaheshVashisth/Fitness-page'
 },
-// {
-//   id:6,
-//   image:IMG6,
-//   title:'Charts templates & infographics in Figma',
-//   github:'https://github.com',
-//   demo:'https://dribble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-// }
+{
+  id:6,
+  image:IMG6,
+  title:'To-Do Pomodoro App',
+  github:'https://github.com/MaheshVashisth/todo-pomodoro-app',
+  demo:'https://github.com/MaheshVashisth/todo-pomodoro-app'
+}
 ]
 const Project = () => {
   return (
@@ -66,8 +66,8 @@ const Project = () => {
         </div>
         <h3>{title}</h3>
         <div className='portfolio__item-cta'>
-          <a href={github} className='btn'>Github</a>
-        <a href={demo} className='btn btn-primary' target='_blank'>LiveDemo</a>
+          <a href={github} className='btn' target="_blank" rel="noopener noreferrer">Github</a>
+        <a href={demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer"  >LiveDemo</a>
         </div>
       </article>
         )})
