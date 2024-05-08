@@ -1,101 +1,82 @@
-header{
-
-    height: 120vh;
-    padding:7rem;
-    overflow: hidden;
+header {
+  height: 120vh;
+  padding: 7rem;
+  overflow: hidden;
 }
-.header_container
-{
-    text-align: center;
-    height: 100%;
-    position: relative;
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 /* CTA.js */
 
-.cta{
-    margin-top: 2.5rem;
-    display: flex;
-    gap:1.2rem;
-    justify-content: center;
-}  
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
 
 /* HEADER_S0CIALS */
-.header_socials
-{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    gap:0.8rem;
-    position :absolute;
-    left: 0;
-    bottom: 0;
-
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
-.header_socials::after
-{
-    content:"";
-    width:1px;
-    height: 2rem;
-    background-color: var(--color-primary);
+.header_socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: var(--color-primary);
 }
-
 
 /* PROFILE PHOTO */
 
-.me
-{
-    /* background: linear-gradient(var(--color-primary),transparent); */
-    width: 23rem;
-    height: 100%;                                 
-    position: absolute;
-    left: calc(50% - 11rem) ;
-    margin-top:4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding:5rem 1.5rem 1.5rem 1.5rem;
-     
+.me {
+  /* background: linear-gradient(var(--color-primary),transparent); */
+  width: 20rem;
+  height: 100%;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 3rem;
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-.photo{
-    border-radius: 2rem;
+.photo {
+  border-radius: 2rem;
+  height: 100%;
 }
-
-/* background: linear-gradient(var(--color-primary),transparent);
-    width: 23rem;
-    height: 100%;
-    position: absolute;
-    left: calc(50% - 11rem) ;
-    margin-top:4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding:5rem 1.5rem 1.5rem 1.5rem; */
 
 /* Scroll Down */
 
-.scroll_down
-{
-    position:absolute;
-    right: -2.3rem;
-    bottom:1.75rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 1.75rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
-@media  screen and (max-width :600px) {
-    header{
-        height: 100vh;
-    }
-    
-    .Name h1
-    {   display: none;
-    } 
-     .Name:before{
-        content:"Mahesh";
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
 
-    } 
+  .Name h1 {
+    display: none;
+  }
+  .Name:before {
+    content: "Mahesh";
+  }
 
-  .header_socials,  .scroll_down
-    {
-      display: none;
-    }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
 }
