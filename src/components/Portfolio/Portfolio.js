@@ -51,7 +51,7 @@ const data = [
     demo: "https://github.com/MaheshVashisth/todo-pomodoro-app",
   },
 ];
-const Project = () => {
+const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My recent work</h5>
@@ -90,4 +90,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Portfolio;

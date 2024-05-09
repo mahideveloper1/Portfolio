@@ -30,11 +30,11 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
-        href="#Project"
+        href="#portfolio"
         onClick={() => {
-          setActiveNav("#Portfolio");
+          setActiveNav("#portfolio");
         }}
-        className={activeNav === "#Portfolio" ? "active" : ""}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
         <AiOutlineProject />
       </a>
