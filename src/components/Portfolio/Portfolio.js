@@ -41,14 +41,14 @@ const data = [
     image: IMG5,
     title: "Twitter",
     github: "https://github.com/mahideveloper1/Twitter-frontend",
-    demo: "https://github.com/mahideveloper1/Twitter-server",
+    demo: "https://www.youtube.com/watch?v=ouGpoXe678o",
   },
   {
     id: 6,
     image: IMG6,
     title: "Real Estate Managing App",
-    github: "https://github.com/MaheshVashisth/todo-pomodoro-app",
-    demo: "https://github.com/MaheshVashisth/todo-pomodoro-app",
+    github: "https://github.com/mahideveloper1/Real-estate-frontend",
+    demo: "https://estate-server-oxyg.onrender.com/api/users",
   },
 ];
 const Portfolio = () => {
