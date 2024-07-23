@@ -50,22 +50,29 @@ function Contact() {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your full name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            type="message"
-            rows="7"
-            placeholder="Your Message"
-            required
-          />
-          <button type="submit" className="btn btn-primary">
-            Send Message
-          </button>
+          <div className="form__group">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your full name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              type="message"
+              rows="7"
+              placeholder="Your Message"
+              required
+            />
+            <button type="submit" className="btn btn-primary">
+              Send Message
+            </button>
+          </div>
         </form>
       </div>
     </section>

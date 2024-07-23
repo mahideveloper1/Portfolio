@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        Mahesh
+        Mahesh Vashisth
       </a>
       <ul className="permalinks">
         <li>
