@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  margin: 0 auto;
 }
 
 .contact__options {
@@ -30,6 +31,11 @@
   margin-bottom: 0.5rem;
 }
 
+.contact__option h5 {
+  font-size: 0.7rem;
+  word-break: break-all;
+}
+
 .contact__option a {
   margin-top: 0.7rem;
   display: inline-block;
@@ -42,6 +48,14 @@ form {
   gap: 1.2rem;
 }
 
+.form__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
 input,
 textarea {
   width: 100%;
@@ -52,17 +66,6 @@ textarea {
   resize: none;
   color: var(--color-white);
 }
-
-/* @media screen and (max-width: 600px) {
-  .container.contact__container {
-    width: var(--container-width-sm);
-  }
-
-  .contact__option h5 {
-    font-size: 0.7rem;
-    word-break: break-all;
-  }
-} */
 
 @media screen and (max-width: 780px) {
   .container.contact__container {
@@ -77,6 +80,20 @@ textarea {
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     width: var(--container-width-sm);
+  }
+
+  .contact__options {
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 600px) {
+  input {
+    margin-right: 50px;
+  }
+
+  input,
+  textarea {
+    margin-right: 50px;
   }
 }
 
@@ -129,5 +146,26 @@ textarea {
     align-items: center;
     width: 100%;
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 400px) {
+  #contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 350px) {
+  #contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 32px;
   }
 }
