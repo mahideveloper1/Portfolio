@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h5>What skills i have</h5>
-      <h2>My Experience</h2>
+      <h2>My Skillset</h2>
       <div className="container experience__container">
         <div className="experience__backend">
           <h3>Frontend development</h3>
@@ -14,22 +14,22 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle classname="experience__details-icon" />
               <div>
-                <h4>Reactjs</h4>
+                <h4>React.js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <AiFillCheckCircle classname="experience__details-icon" />
               <div>
-                <h4>Nextjs</h4>
-                <small className="text-light">intermediate</small>
+                <h4>Javascript</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <AiFillCheckCircle classname="experience__details-icon" />
 
               <div>
-                <h4>Javascript</h4>
+                <h4>Next.js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -43,15 +43,15 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle classname="experience__details-icon" />
               <div>
-                <h4>HTML&CSS</h4>
+                <h4>Recoil</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <AiFillCheckCircle classname="experience__details-icon" />
               <div>
-                <h4>Recoil</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>Shadcn</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
@@ -78,7 +78,7 @@ const Experience = () => {
               <AiFillCheckCircle classname="experience__details-icon" />
 
               <div>
-                <h4>PostgreSQL</h4>
+                <h4>RestAPI</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -99,7 +99,55 @@ const Experience = () => {
             <article className="experience__details">
               <AiFillCheckCircle classname="experience__details-icon" />
               <div>
-                <h4>API's</h4>
+                <h4>PostgreSQL</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="experience__backend">
+          <h3>DevOps</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <AiFillCheckCircle classname="experience__details-icon" />
+              <div>
+                <h4>Docker</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCheckCircle classname="experience__details-icon" />
+              <div>
+                <h4>Terraform</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCheckCircle classname="experience__details-icon" />
+
+              <div>
+                <h4>Gitlab</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCheckCircle classname="experience__details-icon" />
+              <div>
+                <h4>Kubernetes</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCheckCircle classname="experience__details-icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCheckCircle classname="experience__details-icon" />
+              <div>
+                <h4>Jenkins</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
