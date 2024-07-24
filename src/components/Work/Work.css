@@ -57,3 +57,29 @@
     margin: 0 auto; /* Center-align the items */
   }
 }
+@media screen and (max-width: 450px) and (min-width: 399px) {
+  .work__item {
+    margin-left: 25px;
+    width: 400px;
+  }
+
+  h5 {
+    padding-left: 50px;
+  }
+  h2 {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 399px) and (min-width: 350px) {
+  .work__item {
+    margin-left: 40px;
+    padding-right: -10px;
+  }
+
+  h5 {
+    padding-left: 50px;
+  }
+  h2 {
+    padding-left: 50px;
+  }
+}
