@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ year Experience</small>
+              <small>1+ year Experience</small>
             </article>
 
             <article className="about__card">
@@ -39,11 +39,13 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a undergraduate student who has a good grip on Frontend
-            technologies(like HTML, CSS, Reactjs, Nextjs) and Backened
-            technologies(like nodejs, expressjs, MONGODB,API development). In am
-            a constant learner and always keep learning about various tech
-            fields.
+            I'm a versatile Full Stack Developer mastering the art of frontend,
+            backend, and DevOps. With React.js and Next.js, I craft seamless
+            user experiences. On the server-side, I leverage Node.js and
+            Express.js to build powerful applications, while MongoDB and
+            PostgreSQL handle data effortlessly. My DevOps skills with Docker,
+            Terraform, and Kubernetes streamline deployment and enhance
+            performance.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

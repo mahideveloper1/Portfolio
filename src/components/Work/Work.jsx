@@ -12,7 +12,7 @@ const workData = [
   {
     role: "DevOps Engineer",
     company: " As a Freelancer",
-    duration: "Jul 2024 - Present",
+    duration: "July 2024 - Present",
     description:
       "Assisted in setting up CI/CD pipelines using Gitlab, managed Docker containers, and deployed applications on AWS. Worked on infrastructure automation using Terraform.",
   },

@@ -148,7 +148,7 @@ const Experience = () => {
               <AiFillCheckCircle classname="experience__details-icon" />
               <div>
                 <h4>Jenkins</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

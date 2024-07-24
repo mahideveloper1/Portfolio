@@ -91,7 +91,7 @@
 
   .about__cards .about__card:nth-child(3) {
     grid-column: span 2;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
 
