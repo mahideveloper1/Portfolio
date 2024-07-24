@@ -30,7 +30,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  margin: auto;
 }
 .about__card {
   background: var(--color-bg-variant);
@@ -77,68 +76,19 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 6oopx) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
   .about__cards {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    justify-items: center;
   }
-
-  .about__card {
-    width: 80%;
-  }
-
-  .about__cards .about__card:nth-child(3) {
-    grid-column: span 2;
-    width: 50%;
-    margin: 0 auto;
-  }
-
   .about__content {
     text-align: center;
-    padding: 0 1rem;
   }
-
   .about__content p {
     margin: 1.5rem 0;
-    text-align: justify;
-  }
-
-  .about__content .btn {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .about__cards {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin: 0 auto;
-  }
-
-  .about__card {
-    width: 100%;
-    margin: 0 auto;
-    padding: 1.5rem;
-  }
-
-  .about__cards .about__card:nth-child(3) {
-    width: 70%;
-    grid-column: span 2;
-    margin: 0 auto;
-  }
-
-  .about__content p {
-    margin: 1.5rem 0;
-  }
-}
-
-@media screen and (max-width: 400px) and (min-width: 350px) {
-  .about__cards {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin: 0 auto;
   }
 }
