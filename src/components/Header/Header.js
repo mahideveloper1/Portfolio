@@ -2,7 +2,6 @@ import React from "react";
 import CTA from "./CTA";
 import "./header.css";
 import Profile from "../../assest/profile2.jpg";
-// import ME from "../../assest/me.png";
 
 import HeaderSocial from "./HeaderSocial";
 

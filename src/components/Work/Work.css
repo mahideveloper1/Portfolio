@@ -53,8 +53,8 @@
   }
   .work__item {
     max-width: 100%;
-    padding: 1.5rem 1.5rem; /* Adjust padding for smaller screens */
-    margin: 0 auto; /* Center-align the items */
+    padding: 1.5rem 1.5rem;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 450px) and (min-width: 399px) {
@@ -73,13 +73,13 @@
 @media screen and (max-width: 399px) and (min-width: 350px) {
   .work__item {
     margin-left: 40px;
-    padding-right: -10px;
+    width: 100%;
   }
 
   h5 {
-    padding-left: 50px;
+    padding-left: 90px;
   }
   h2 {
-    padding-left: 50px;
+    padding-left: 90px;
   }
 }

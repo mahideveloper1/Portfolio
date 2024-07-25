@@ -67,16 +67,6 @@ textarea {
   color: var(--color-white);
 }
 
-@media screen and (max-width: 780px) {
-  .container.contact__container {
-    width: var(--container-width-sm);
-  }
-  .contact__option h5 {
-    font-size: 0.7rem;
-    word-break: break-all;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     width: var(--container-width-sm);
@@ -113,24 +103,25 @@ textarea {
 
   .contact__option {
     padding: 0.8rem;
-    width: 70%;
+    width: 72%;
+    margin-right: 10px;
   }
 
   .contact__option-icon {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .contact__option h4 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .contact__option h5 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     word-break: break-all;
   }
 
   .contact__option a {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   input,
@@ -158,14 +149,42 @@ textarea {
     gap: 1rem;
     margin-left: 20px;
   }
+  .contact__option-icon {
+    font-size: 1.5rem;
+  }
+
+  .contact__option h4 {
+    font-size: 1rem;
+  }
+
+  .contact__option h5 {
+    font-size: 0.9rem;
+    word-break: break-all;
+    padding-right: 50px;
+  }
+
+  .contact__option a {
+    font-size: 0.8rem;
+  }
 }
-@media screen and (max-width: 400px) and (min-width: 350px) {
+@media screen and (max-width: 399px) and (min-width: 350px) {
   #contact {
-    width: 100%;
+    width: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    margin-left: 32px;
+  }
+  .contact__option h5 {
+    font-size: 0.8rem;
+    margin-left: -90px;
+  }
+
+  h5 {
+    margin-left: -60px;
+  }
+
+  h2 {
+    margin-left: -15%;
   }
 }

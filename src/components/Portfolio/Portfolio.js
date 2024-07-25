@@ -46,7 +46,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "Real Estate Managing App",
+    title: "Real Estate Manager",
     github: "https://github.com/mahideveloper1/Real-estate-frontend",
     demo: "https://estate-server-oxyg.onrender.com/api/users",
   },

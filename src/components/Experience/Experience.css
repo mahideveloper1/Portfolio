@@ -78,12 +78,13 @@
 
 @media screen and (max-width: 450px) and (min-width: 400px) {
   .experience__container > div {
-    margin-left: 55px;
+    margin-left: 45px;
+    width: 90%;
   }
 }
 @media screen and (max-width: 400px) and (min-width: 350px) {
   .experience__container > div {
-    margin-left: 35px;
+    margin-left: 40px;
     width: 100%;
   }
 }
