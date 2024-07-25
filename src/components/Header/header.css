@@ -66,20 +66,82 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+    padding: 2rem;
   }
 
   .Name h1 {
     display: none;
   }
+
   .Name:before {
     content: "Mahesh";
+    font-size: 2rem;
+    font-weight: bold;
   }
 
   .header_socials,
   .scroll_down {
     display: none;
   }
+
+  .me {
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  header {
+    height: 100vh;
+    padding: 2rem;
+  }
+
+  h4 {
+    padding-left: 3rem;
+  }
+
+  .cta {
+    margin-left: 3rem;
+  }
+
+  .Name:before {
+    content: "Mahesh";
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 3rem;
+  }
+
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+
+  .me {
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
 }
 
-@media screen and (max-width: 450px) and (min-width: 400px) {
+@media screen and (max-width: 398px) {
+  .me {
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+  }
+
+  .Name:before {
+    content: "Mahesh";
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 6rem;
+  }
+
+  h4 {
+    padding-left: 6rem;
+  }
+
+  .cta {
+    margin-left: 5.5rem;
+  }
 }
