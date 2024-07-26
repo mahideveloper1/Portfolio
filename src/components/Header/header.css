@@ -96,8 +96,12 @@ header {
     padding: 2rem;
   }
 
-  h4 {
-    padding-left: 3rem;
+  .heading {
+    margin-left: 3rem;
+  }
+
+  .main {
+    margin-left: 3rem;
   }
 
   .cta {
@@ -119,11 +123,11 @@ header {
   .me {
     width: 20rem;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
   }
 }
 
-@media screen and (max-width: 398px) {
+@media screen and (max-width: 400px) {
   .me {
     width: 20rem;
     margin-top: 1rem;
@@ -137,8 +141,12 @@ header {
     margin-left: 6rem;
   }
 
-  h4 {
-    padding-left: 6rem;
+  .main {
+    margin-left: 6rem;
+  }
+
+  .heading {
+    margin-left: 6rem;
   }
 
   .cta {

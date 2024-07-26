@@ -160,11 +160,15 @@ textarea {
   .contact__option h5 {
     font-size: 0.9rem;
     word-break: break-all;
-    padding-right: 50px;
+    padding-right: 4rem;
   }
 
   .contact__option a {
     font-size: 0.8rem;
+  }
+
+  .touch {
+    margin-left: -2rem;
   }
 }
 @media screen and (max-width: 399px) and (min-width: 350px) {
@@ -186,5 +190,9 @@ textarea {
 
   h2 {
     margin-left: -15%;
+  }
+
+  .touch {
+    margin-left: -5rem;
   }
 }

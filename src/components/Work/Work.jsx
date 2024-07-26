@@ -29,7 +29,7 @@ const Work = () => {
             <h3>{work.role}</h3>
             <h4>{work.company}</h4>
             <p className="work__duration">{work.duration}</p>
-            <p>{work.description}</p>
+            <p className="description">{work.description}</p>
           </article>
         ))}
       </div>
