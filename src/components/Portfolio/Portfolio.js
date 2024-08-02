@@ -32,7 +32,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Figma App",
+    title: "Figma App (Desktop App)",
     github: "https://github.com/mahideveloper1/Figma-App",
     demo: "https://figma-app-five.vercel.app",
   },
